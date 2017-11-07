@@ -1,0 +1,33 @@
+body{
+    height: 5000px;
+}
+body h4{
+    font-size:20px;
+    font-weight:bold;
+}
+body h4:hover{
+    -webkit-filter: brightness(0.3);
+   -moz-filter: brightness(0.3);
+    -ms-filter: brightness(0.3);
+     -o-filter: brightness(0.3);
+filter: brightness(0.3);
+cursor:pointer;
+}
+
+.element{
+    width: 200px;
+    padding: 3em;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-top: #dc0000 3px solid;
+    text-align: center;
+}
+
+footer.fixar-rodape{
+  /* border-top: 1px solid #333; */
+  bottom: 0;
+  left: 0;
+  /* height: 40px; */
+  position: fixed;
+  width: 100%;
+}

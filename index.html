@@ -6,77 +6,156 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script src="js/jquery-scrolltofixed.js"></script>
+    <script src="js/script.js"></script>
 </head>
 
 <body>
 
+
     <div class="container-fluid">
         <div class="page-header">
-            <h1>Erick S. Gaspar</h1>
-            <small>Java Developer</small>
+            <div class="col-xs-12">
+                <div class="panel">
+                    <h1>Erick S. Gaspar</h1>
+                    <small>Java Developer</small>
+                </div>
+            </div>
         </div>
 
         <div class="row">
             <div class="col-xs-12">
-                <h4 class="glyphicon glyphicon-user">Contato</h4>
-                <p>
-                    <a class="btn btn-primary btn-xlg" href="tel:(11) 9 8325-8117">
-                        <span class="glyphicon glyphicon-earphone"></span> (11) 9 8325-8117
-                    </a>
-                </p>
-                <p>
-                    <a class="btn btn-primary btn-xlg" href="mailto:esgaspar@msn.com?subject=Contact GitHub">
-                        <span class="glyphicon glyphicon-envelope"></span> esgaspar@msn.com
-                    </a>
-                </p>
-
+                <div class="panel panel-primary" id="myFixed">
+                    <div class="panel-heading">
+                        <h4 class="glyphicon glyphicon-user" data-toggle="collapse" data-target="#panelContact">Contato </h4>
+                    </div>
+                    <div class="panel-body" id="panelContact">
+                        <div class="col-sm-3">
+                            <p>
+                                <a class="btn btn-primary btn-xlg" href="tel:(11) 9 8325-8117">
+                                    <span class="glyphicon glyphicon-earphone"></span> (11) 9 8325-8117
+                                </a>
+                            </p>
+                        </div>
+                        <div class="col-sm-3">
+                            <p>
+                                <a class="btn btn-primary btn-xlg" href="mailto:esgaspar@msn.com?subject=Contact GitHub">
+                                    <span class="glyphicon glyphicon-envelope"></span> esgaspar@msn.com
+                                </a>
+                            </p>
+                        </div>
+                        <div class="col-sm-3">
+                            <p>
+                                <a class="btn btn-primary btn-xlg" href="https://www.linkedin.com/in/erick-s-gaspar-13247470/">
+                                    <span class="glyphicon glyphicon-lock"></span> Linkedin
+                                </a>
+                            </p>
+                        </div>
+                        <div class="col-sm-3">
+                            <p>
+                                <a class="btn btn-primary btn-xlg" href="https://github.com/esgaspar">
+                                    <span class="glyphicon glyphicon-cloud"></span> GitHub
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
+
         <div class="row">
             <div class="col-xs-12">
-                <h4 class="glyphicon glyphicon-briefcase">Experiência profissional</h4>
-                <p>
-                    Empresa - ArtIt, Campinas – SP Periodo: de 05/2017 até Atualmente. </p>
-                <p>
+                <div class="panel panel-success">
+                    <div class="panel-heading">
+                        <h4 class="glyphicon glyphicon-briefcase" data-toggle="collapse" data-target="#panelExperience">Experiência profissional </h4>
+                    </div>
+                    <div class="panel-body collapse in" id="panelExperience">
+                        <div class="col-xs-12 jumbotron">
 
-                    Cargo: Analista de Desenvolvimento de Sistemas Pleno
-                </p>
-                <p>
-                    Projeto: CBILL Atividades: Analise e desenvolvimento de soluções em sistema legado para implementação de novas funcionalidades,
-                    correção de defeitos e realização de melhorias.
-                </p>
-                </p>
-                <p>
-                    Empresa - GFT Group, Sorocaba– SP Periodo: de 02/2015 à 04/2017.
-                </p>
-                <p>
-                    Cargo: Desenvolvedor Java Sênior
-                </p>
-                <p>
+                            <p>
+                                <b>ArtIt</b> - Campinas – SP - Periodo: de 05/2017 até Atualmente.
+                            </p>
+                            <p>
 
-                    Atividades: Desenvolvimento de sistema com arquitetura de micro serviços, criando e consumindo serviços RESTFUL e SOAP, Migração
-                    de Banco de dados e tratamento de importação e exportação de arquivos e dados em lote, Desenvolvimento,
-                    alteração e manutenção de sistemas jsf, documentação funcional de sistemas. Tecnologias utilizadas: Servidor
-                    de aplicações websphere, Banco de dados oracle, framework de persistência hibernate, Json e xml, Maven,
-                    spring ,GIT, bitbucket, metodologia Ágil com Scrum, Jira, Confluence, Spring.
-                </p>
-                <p>
-                    Empresa: Acharei Desenvolvimento Período: de 01/09/2014 à 01/02/2015
-                </p>
-                <p>
-                    Cargo: Desenvolvedor PHP. Cargos anteriores: Analista de Suporte.
-                </p>
-                <p>
-                    Atividades: Análise e correção de defeitos no sistema, Suporte técnico e auxilio a clientes, desenvolvimento de novas funcionalidades
-                    no sistema.
-                </p>
+                                <b>Cargo: </b> Analista de Desenvolvimento de Sistemas Pleno
+                            </p>
+                            <p>
+                                <b>Projeto:</b> CBILL
+                                <br>
+                                <b>Atividades:</b>
+                                <br> Analise e desenvolvimento de soluções em sistema legado para implementação de novas funcionalidades, correção de defeitos e realização de melhorias.
+                            </p>
+                        </div>
+                        <div class="col-xs-12 jumbotron">
+                            <p>
+                                <b>GFT Group</b> Sorocaba – SP Periodo: de 02/2015 à 04/2017.
+                            </p>
+                            <p>
+                                <b>Cargo:</b> Desenvolvedor Java Sênior
+                            </p>
+                            <p>
+                                <b>Atividades:</b>
+                                <br> Desenvolvimento de sistema com arquitetura de micro serviços, criando e consumindo serviços RESTFUL e SOAP, Migração de Banco de dados e tratamento de importação e exportação de arquivos e dados em lote, Desenvolvimento, alteração e manutenção de sistemas jsf, documentação funcional de sistemas.
+                            </p>
+                            <p>
+                                <b>Tecnologias utilizadas:</b>
+                                <br> Servidor de aplicações websphere, Banco de dados oracle, framework de persistência hibernate, Json e xml, Maven, spring ,GIT, bitbucket, metodologia Ágil com Scrum, Jira, Confluence, Spring.
+                            </p>
+                        </div>
+                        <div class="col-xs-12 jumbotron">
+                            <p>
+                                <b>Acharei Desenvolvimento</b> Vargem Grande Paulista - Período: de 09/2014 à 02/2015
+                            </p>
+                            <p>
+                                <b>Cargo</b>Desenvolvedor PHP.
+                                <br> Analista de Suporte.
+                            </p>
+                            <p>
+                                <b>Atividades:<b><br> 
+                                    Análise e correção de defeitos no sistema, Suporte técnico e auxilio a clientes, desenvolvimento de novas funcionalidades
+                                    no sistema.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="panel panel-warning"> 
+                        <div class="panel-heading">
+                            <h4 class="glyphicon glyphicon-briefcase" data-toggle="collapse" data-target="#panelTech">Tecnologias </h4>
+                        </div>
+                        <div class="panel-body collapse in" id="panelTech">
+                            <div class="col-xs-12" style="height:10em;overflow:auto">
+                                Lista de técnologias e nível de conhecimento com as quais tenho familiaridade:
+                                <div id="chart_div" style="height: 1000px"></div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                </div>
             </div>
         </div>
+        <footer class="fixar-rodape">
+         <div class="page-footer">
+            <div class="col-xs-12">
+                <div class="panel">
+                    <h1>Erick S. Gaspar</h1>
+                    <small>Java Developer</small>
+                </div>
+            </div>
+        </div>
+    </footer>
     </div>
-    </div>
-
+    
 </body>
 
 </html>
