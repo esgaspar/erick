@@ -1,6 +1,4 @@
 body h4{
-    font-size:20px;
-    font-weight:bold;
 }
 body h4:hover{
     -webkit-filter: brightness(0.3);
@@ -15,7 +13,7 @@ footer.fixar-rodape{
   /* border-top: 1px solid #333; */
   bottom: 0;
   left: 0;
-  height: 20px;
+  height: 3vh;
   position: fixed;
   width: 100%;
 }
