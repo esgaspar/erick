@@ -11,20 +11,16 @@ filter: brightness(0.3);
 cursor:pointer;
 }
 
-.element{
-    width: 200px;
-    padding: 3em;
-    background: #f9f9f9;
-    border: 1px solid #ddd;
-    border-top: #dc0000 3px solid;
-    text-align: center;
-}
-
 footer.fixar-rodape{
   /* border-top: 1px solid #333; */
   bottom: 0;
   left: 0;
-  height: 89px;
+  height: 20px;
   position: fixed;
   width: 100%;
+}
+
+.mn{
+    padding-top: 0;padding-bottom: 0;
+    margin-top: 0;margin-bottom: 0;
 }
