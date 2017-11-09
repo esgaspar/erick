@@ -13,6 +13,8 @@ function drawAnnotations() {
          ['Web Services', 4, 'Web Services' ],
          ['Rest', 4, 'Rest' ],
          ['Soap', 3, 'Soap' ],
+         ['Scrum', 4.5, 'Scrum' ],
+         ['Kamban', 4.5, 'Kamban' ],
          ['SQL', 4, 'SQL' ],
          ['Oracle', 3, 'Oracle' ],
          ['MySql', 3, 'MySql' ],
@@ -33,6 +35,12 @@ function drawAnnotations() {
          ['Node JS', 2, 'Node JS' ],
          ['Angular JS', 2, 'Angular JS' ],
          ['Electron', 3, 'Electron' ],
+         ['Junit', 4, 'Junit' ],
+         ['Mokito', 4, 'Mokito' ],
+         ['Selenium', 3, 'Selenium' ],
+         ['PHP', 3, 'PHP' ],
+         ['Laravel', 3, 'Laravel' ],
+         ['Composer', 3, 'Composer' ]
       ]);
 
       var options = {
