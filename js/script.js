@@ -48,17 +48,23 @@ function drawAnnotations() {
     title: 'Habilidades',
     chartArea: { width: '100%' },
     annotations: {
-      alwaysOutside: false,
+      highContrast: true,
+      alwaysOutside: true,
       textStyle: {
         fontSize: 15,
+        bold: true,
         color: '#555'
       },
       boxStyle: {
-        stroke: '#ccc',
-        strokeWidth: 2,
-        gradient: {
-          color1: '#f3e5f5',
-        }
+        // Color of the box outline.
+        // stroke: '#888',
+        // Thickness of the box outline.
+        // strokeWidth: 1,
+        // x-radius of the corner curvature.
+        rx: 10,
+        // y-radius of the corner curvature.
+        ry: 10,
+        // Attributes for linear gradient fill.
       }
     }
   };
