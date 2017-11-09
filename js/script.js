@@ -71,5 +71,5 @@ function drawAnnotations() {
 // past the limit.
 $(document).ready(function () {
   $('.header').scrollToFixed();
-  $('.footer').scrollToFixed({ bottom: 1, limit: $('.footer').offset().top });
+  // $('.footer').scrollToFixed({ bottom: 1, limit: $('.footer').offset().top });
 });
