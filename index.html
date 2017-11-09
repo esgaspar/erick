@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="pt-br">
 
 <head>
     <title>Erick S. Gaspar - Developer</title>
@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
@@ -67,7 +68,34 @@
                 </div>
             </div>
         </div>
-        
+
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="panel panel-danger" id="myFixed">
+                    <div class="panel-heading mn">
+                        <h4 class="glyphicon glyphicon-user" data-toggle="collapse" data-target="#panelLanguage">Idiomas </h4>
+                        <span class="glyphicon glyphicon-menu-hamburger" data-toggle="collapse" data-target="#panelLanguage"> </span>
+                    </div>
+                    <div class="panel-body" id="panelLanguage">
+                        <div class="col-sm-12">
+                            <p>
+                                <h4>Portugês <small>- Nativo</small></h4>
+                            </p>
+                            <p>
+                                <h4>Libras - <small>Avançado</small></h4>
+                            </p>
+                            <p>
+                                <h4>Espanhol - <small>Avançado</small></h4>
+                            </p>
+                            <p>
+                                <h4>Inglês - <small>Intermediario</small></span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <div class="row">
             <div class="col-xs-12">
                 <div class="panel panel-success">
@@ -77,89 +105,201 @@
                     </div>
                     <div class="panel-body collapse in" id="panelExperience">
                         <div class="col-xs-12 jumbotron">
-                            
+
                             <p>
-                                <b>ArtIt</b> - Campinas – SP - Periodo: de 05/2017 até Atualmente.
+                                <h3>ArtIt
+                                    <small> Campinas – SP - Periodo: de 05/2017 até Atualmente.</small>
+                                </h3>
                             </p>
                             <p>
-                                
-                                <b>Cargo: </b> Analista de Desenvolvimento de Sistemas Pleno
+                                <h4>Cargo </h4>
+                                Analista de Desenvolvimento de Sistemas Pleno
                             </p>
                             <p>
-                                <b>Projeto:</b> CBILL
-                                <br>
-                                <b>Atividades:</b>
-                                <br> Analise e desenvolvimento de soluções em sistema legado para implementação de novas funcionalidades, correção de defeitos e realização de melhorias.
-                            </p>
-                        </div>
-                        <div class="col-xs-12 jumbotron">
-                            <p>
-                                <b>GFT Group</b> Sorocaba – SP Periodo: de 02/2015 à 04/2017.
-                            </p>
-                            <p>
-                                <b>Cargo:</b> Desenvolvedor Java Sênior
-                            </p>
-                            <p>
-                                <b>Atividades:</b>
-                                <br> Desenvolvimento de sistema com arquitetura de micro serviços, criando e consumindo serviços RESTFUL e SOAP, Migração de Banco de dados e tratamento de importação e exportação de arquivos e dados em lote, Desenvolvimento, alteração e manutenção de sistemas jsf, documentação funcional de sistemas.
-                            </p>
-                            <p>
-                                <b>Tecnologias utilizadas:</b>
-                                <br> Servidor de aplicações websphere, Banco de dados oracle, framework de persistência hibernate, Json e xml, Maven, spring ,GIT, bitbucket, metodologia Ágil com Scrum, Jira, Confluence, Spring.
+                                <h4>Projeto
+                                    <small>CBILL</small>
+                                </h4>
+
+                                <h4>Atividades</h4>
+                                Analise e desenvolvimento de soluções em sistema legado para implementação de novas funcionalidades,
+                                    correção de defeitos e realização de melhorias.
                             </p>
                         </div>
                         <div class="col-xs-12 jumbotron">
                             <p>
-                                <b>Acharei Desenvolvimento</b> Vargem Grande Paulista - Período: de 09/2014 à 02/2015
+                                <h3>GFT Group
+                                    <small> Sorocaba - SP Periodo: de 02/2015 à 04/2017.</small>
+                                </h3>
                             </p>
                             <p>
-                                <b>Cargo</b>Desenvolvedor PHP.
-                                <br> Analista de Suporte.
+                                <h4>Cargo</h4>
+                                 Desenvolvedor Java Sênior
                             </p>
                             <p>
-                                <b>Atividades:<b><br> 
-                                    Análise e correção de defeitos no sistema, Suporte técnico e auxilio a clientes, desenvolvimento de novas funcionalidades
-                                    no sistema.
-                                </p>
-                            </div>
+                                <h4>Atividades:</h4>
+                                Desenvolvimento de sistema com arquitetura de micro serviços, criando e consumindo serviços
+                                    RESTFUL e SOAP, Migração de Banco de dados e tratamento de importação e exportação de
+                                    arquivos e dados em lote, Desenvolvimento, alteração e manutenção de sistemas jsf, documentação
+                                    funcional de sistemas.
+                            </p>
+                            <p>
+                                <h4>Tecnologias utilizadas:</h4>
+                                 Servidor de aplicações websphere, Banco de dados oracle, framework de persistência hibernate,
+                                    Json e xml, Maven, spring ,GIT, bitbucket, metodologia Ágil com Scrum, Jira, Confluence,
+                                    Spring.
+                               
+                            </p>
+                        </div>
+                        <div class="col-xs-12 jumbotron">
+                            <p>
+                                <h3>Acharei Desenvolvimento
+                                    <small> Vargem Grande Paulista - Período: de 09/2014 à 02/2015</small>
+                                </h3>
+                            </p>
+                            <p>
+                                <h4>Cargo</h4>
+                                <ul>
+                                    <li>
+                                        Desenvolvedor PHP.
+                                    </li>
+                                    <li>
+                                        Analista de Suporte.
+                                    </li>
+                                </ul>
+                            </p>
+                            <p>
+                                <h4>Atividades:</h4>
+                                 Análise e correção de defeitos no sistema, Suporte técnico e auxilio a clientes, desenvolvimento
+                                    de novas funcionalidades no sistema.
+                            </p>
                         </div>
                     </div>
-                    
-                    
                 </div>
+
+
             </div>
-            <div class="row">
-                <div class="col-xs-12">
-                    <div class="panel panel-warning"> 
-                        <div class="panel-heading mn">
-                            <h4 class="glyphicon glyphicon-briefcase" data-toggle="collapse" data-target="#panelTech">Tecnologias </h4>
-                            <span class="glyphicon glyphicon-menu-hamburger" data-toggle="collapse" data-target="#panelTech"> </span>
-                        </div>
-                        <div class="panel-body collapse in" id="panelTech">
-                            <div class="col-xs-12" style="height:50em;overflow:auto">
-                                <p>
+        </div>
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="panel panel-warning">
+                    <div class="panel-heading mn">
+                        <h4 class="glyphicon glyphicon-briefcase" data-toggle="collapse" data-target="#panelTech">Tecnologias </h4>
+                        <span class="glyphicon glyphicon-menu-hamburger" data-toggle="collapse" data-target="#panelTech"> </span>
+                    </div>
+                    <div class="panel-body collapse in" id="panelTech">
+                        <div class="col-xs-12" style="height:50em;overflow:auto">
+                            <h4>
                                 Lista de tecnologias e nível de conhecimento com as quais tenho familiaridade:
-                                </p>
-                                <div id="chart_div" style="height: 1500px"></div>
-                            </div>
+                            </h4>
+                            <div id="chart_div" style="height: 1500px"></div>
                         </div>
                     </div>
-                    
-                    
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="panel panel-danger" id="myFixed">
+                    <div class="panel-heading mn">
+                        <h4 class="glyphicon glyphicon-user" data-toggle="collapse" data-target="#panelTraining">Treinamentos </h4>
+                        <span class="glyphicon glyphicon-menu-hamburger" data-toggle="collapse" data-target="#panelTraining"> </span>
+                    </div>
+                    <div class="panel-body" id="panelTraining">
+                        <div class="col-sm-12">
+                            <p>
+                                <h4>Java para Desenvolvimento Web – Caelum. </h4>
+                                <h5>Grade:
+                                    <small> Banco de dados com JDBC, JPA e Hibernate; Base Web Java com JSP, Servlets, Taglibs e
+                                        Tagfiles; MVC (Model View Controller) e outros design patterns; Interatividade com
+                                        AJAX; Aplicações Web com framework Spring MVC; Autenticação e autorização de usuários,
+                                        validação de dados, filtros e mais;
+                                    </small>
+                                </h5>
+                            </p>
+                        </div>
+                        <div class="col-sm-12">
+                            <p>
+                                <h4>Electron: aplicativos Desktop com as tecnologias da Web.
+                                <small>– Alura</small></h4>
+                            </p>
+                        </div>
+                        <div class="col-sm-12">
+                            <p>
+                                <h4>Git: Controle e compartilhamento de código.
+                                <small>– Alura</small> </h4>
+                            </p>
+                        </div>
+                        <div class="col-sm-12">
+                            <p>
+                                <h4>Google Chart Tools: Gráficos Memoráveis na Web.
+                                <small>– Alura</small> </h4>
+                            </p>
+                        </div>
+                        <div class="col-sm-12">
+                            <p>
+                                <h4>Node.js: Javascript no backend.  <small>– Alura</small> </h4>
+                            </p>
+                        </div>
+                        <div class="col-sm-12">
+                            <p>
+                                <h4>Angular 2: webapps mais poderosas parte 1.
+                                <small>– Alura</small> </h4>
+                            </p>
+                        </div>
+                        <div class="col-sm-12">
+                            <p>
+                                <h4>Angular 2: webapps mais poderosas parte 2.
+                                <small>– Alura</small> </h4>
+                            </p>
+                        </div>
+                        <div class="col-sm-12">
+                            <p>
+                                <h4>Node.js e HTTP: API REST.
+                                <small>– Alura</small> </h4>
+                            </p>
+                        </div>
+                        <div class="col-sm-12">
+                            <p>
+                                <h4>jQuery: parte 2.
+                                <small>– Alura</small> </h4>
+                            </p>
+                        </div>
+                        <div class="col-sm-12">
+                            <p>
+                                <h4>Jasper Reports: Relatórios com Java.
+                                <small>– Alura</small> </h4>
+                            </p>
+                        </div>
+                        <div class="col-sm-12">
+                            <p>
+                                <h4>HTML5 e CSS3 II.
+                                <small>– Alura</small> </h4>
+                            </p>
+                        </div>
+                        <div class="col-sm-12">
+                            <p>
+                                <h4>JavaScript avançado I: ES6, orientação a objetos e padrões de projetos.
+                                <small>– Alura</small> </h4>
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-    
+    </div>
+    <br>
+    <br>
     <footer class="fixar-rodape">
-     <div class="page-footer">
-        <div class="col-xs-12">
-            <div class="panel">
-                <Span>Erick S. Gaspar</Span> <small>Java Developer</small>
+        <div class="page-footer">
+            <div class="col-xs-12">
+                <div class="panel">
+                    <Span>Erick S. Gaspar</Span>
+                    <small>Java Developer</small>
+                </div>
             </div>
         </div>
-    </div>
-</footer>
+    </footer>
 </body>
 
 </html>
