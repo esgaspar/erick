@@ -1,21 +1,21 @@
-.container-fluid{
-     max-width: 950px; margin-right: auto;margin-left: auto;margin-bottom: 0;
+.container-fluid {
+  max-width: 950px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 0;
 }
-body h4:hover{
-    -webkit-filter: brightness(0.3);
-   -moz-filter: brightness(0.3);
-    -ms-filter: brightness(0.3);
-     -o-filter: brightness(0.3);
-filter: brightness(0.3);
-cursor:pointer;
+.mn {
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 }
-
-.mn{
-    padding-top: 0;padding-bottom: 0;
-    margin-top: 0;margin-bottom: 0;
+.mn h4:hover,
+.mn span:hover {
+  color: #24320e;
+  cursor: pointer;
 }
 .footer {
-  /* border-top: 1px solid #333; */
   bottom: 0;
   left: 0;
   height: 3vh;

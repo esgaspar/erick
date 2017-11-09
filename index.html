@@ -14,6 +14,12 @@
     <script src="js/script.js"></script>
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="shortcut icon" type="imagem/x-icon" href="img/coffee.ico" />
+    <!-- <link rel="stylesheet/less" type="text/css" href="css/styles.less"> -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/2.7.2/less.min.js"></script>
+
+    <script>less = { env: 'development' };</script>
+    <script>less.watch();</script>
+
 </head>
 
 <body>
@@ -34,7 +40,7 @@
                 <div class="panel panel-primary header" id="header">
                     <div class="panel-heading mn">
                         <h4 class="glyphicon glyphicon-user" data-toggle="collapse" data-target="#panelContact">Contato </h4>
-                        <span class="glyphicon glyphicon-menu-hamburger" data-toggle="collapse" data-target="#panelContact"> </span>
+                        <span class="glyphicon glyphicon-menu-hamburger mn" data-toggle="collapse" data-target="#panelContact"> </span>
                     </div>
                     <div class="panel-body" id="panelContact">
                         <div class="col-sm-3">
@@ -75,7 +81,7 @@
                 <div class="panel panel-danger">
                     <div class="panel-heading mn">
                         <h4 class="glyphicon glyphicon-globe" data-toggle="collapse" data-target="#panelLanguage">Idiomas </h4>
-                        <span class="glyphicon glyphicon-menu-hamburger" data-toggle="collapse" data-target="#panelLanguage"> </span>
+                        <span class="glyphicon glyphicon-menu-hamburger mn" data-toggle="collapse" data-target="#panelLanguage"> </span>
                     </div>
                     <div class="panel-body" id="panelLanguage">
                         <div class="col-sm-12">
@@ -110,7 +116,7 @@
                 <div class="panel panel-success">
                     <div class="panel-heading mn">
                         <h4 class="glyphicon glyphicon-briefcase" data-toggle="collapse" data-target="#panelExperience">Experiência profissional </h4>
-                        <span class="glyphicon glyphicon-menu-hamburger" data-toggle="collapse" data-target="#panelExperience"> </span>
+                        <span class="glyphicon glyphicon-menu-hamburger mn" data-toggle="collapse" data-target="#panelExperience"> </span>
                     </div>
                     <div class="panel-body collapse in" id="panelExperience">
                         <div class="col-xs-12 jumbotron">
@@ -191,7 +197,7 @@
                 <div class="panel panel-warning">
                     <div class="panel-heading mn">
                         <h4 class="glyphicon glyphicon-cog" data-toggle="collapse" data-target="#panelTech">Tecnologias </h4>
-                        <span class="glyphicon glyphicon-menu-hamburger" data-toggle="collapse" data-target="#panelTech"> </span>
+                        <span class="glyphicon glyphicon-menu-hamburger mn" data-toggle="collapse" data-target="#panelTech"> </span>
                     </div>
                     <div class="panel-body collapse in" id="panelTech">
                         <div class="col-xs-12" style="height:50em;overflow:auto">
@@ -221,7 +227,7 @@
                 <div class="panel panel-info">
                     <div class="panel-heading mn">
                         <h4 class="glyphicon glyphicon-education" data-toggle="collapse" data-target="#panelAcademicFormation">Formação </h4>
-                        <span class="glyphicon glyphicon-menu-hamburger" data-toggle="collapse" data-target="#panelAcademicFormation"> </span>
+                        <span class="glyphicon glyphicon-menu-hamburger mn" data-toggle="collapse" data-target="#panelAcademicFormation"> </span>
                     </div>
                     <div class="panel-body" id="panelAcademicFormation">
                         <div class="col-sm-12">
@@ -251,7 +257,7 @@
                 <div class="panel panel-danger">
                     <div class="panel-heading mn">
                         <h4 class="glyphicon glyphicon-pencil" data-toggle="collapse" data-target="#panelTraining">Treinamentos </h4>
-                        <span class="glyphicon glyphicon-menu-hamburger" data-toggle="collapse" data-target="#panelTraining"> </span>
+                        <span class="glyphicon glyphicon-menu-hamburger mn" data-toggle="collapse" data-target="#panelTraining"> </span>
                     </div>
                     <div class="panel-body" id="panelTraining">
                         <div class="col-sm-12">
