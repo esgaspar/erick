@@ -3,7 +3,7 @@ google.charts.setOnLoadCallback(drawAnnotations);
 
 function drawAnnotations() {
   var data = google.visualization.arrayToDataTable([
-         ['Habilidade', 'Nível', { role: 'annotation' } ],
+         ['Habilidade', 'Nível', { role: 'annotation' }],
          ['Java', 5, 'Java' ],
          ['JEE', 4, 'JEE' ],
          ['Hibernate', 4, 'Hibernate' ],
