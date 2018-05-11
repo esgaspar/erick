@@ -1,0 +1,10 @@
+.carousel-item {
+    background-repeat:no-repeat;
+    background-size:100% auto;
+    height: 100%;
+}
+
+.carousel{
+    height: 20rem;
+    max-height: 15rem;
+}
