@@ -18,16 +18,19 @@
     width: 5rem;
 }
 
-
 .parallax {
     /* The image used */
     background-image: url("../images/Lighthouse.jpg");
-
     /* Set a specific height */
     height: 500px;
-
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+nav{
+    position: fixed;
+    z-index: 10;
+}
