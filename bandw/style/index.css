@@ -29,6 +29,18 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+
+    background-repeat: no-repeat;
+    /* position: absolute; */
+    opacity: 1; /* Firefox, Chrome, Safari, Opera, IE >= 9 (preview) */
+    filter:alpha(opacity=50); /* for <= IE 8 */
+    background-size: cover;
+     -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+
+
+
 }
 
 @media only screen and (max-width: 600px) {
