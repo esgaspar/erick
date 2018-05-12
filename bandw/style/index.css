@@ -31,5 +31,10 @@
     background-size: cover;
 }
 
+@media only screen and (max-width: 600px) {
+    .carousel-control-next,.carousel-control-prev,.carousel-indicators{
+        display: none;
+    }
+}
 
 body{overflow-x: hidden;}
