@@ -102,6 +102,17 @@
 
 
     <script>
+        $(function () {
+
+            var $body = $(document);
+            $body.bind('scroll', function () {
+                // "Disable" the horizontal scroll.
+                if ($body.scrollLeft() !== 0) {
+                    $body.scrollLeft(0);
+                }
+            });
+
+        });
         function openNav() {
             document.getElementById("mySidenav").style.width = "25rem";
             document.getElementById("mySidenav").style.maxWidth = "80%";
