@@ -2,9 +2,14 @@
     background-repeat:no-repeat;
     background-size:100% auto;
     height: 100%;
+
+    opacity:0.95;
+	-moz-opacity: 0.95;
+	filter: alpha(opacity=95);
 }
 
 .carousel{
     height: 20rem;
     max-height: 15rem;
+    min-height: 300px;
 }

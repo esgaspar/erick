@@ -2,18 +2,24 @@
     height: 100%;
     width: 0;
     position: fixed;
-    z-index: 1;
     top: 0;
     left: 0;
     background-color: #111;
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
+
+    opacity:0.98;
+	-moz-opacity: 0.98;
+    filter: alpha(opacity=98);
+    z-index: 4;
 }
 
 .carousel-indicators {
     z-index: 1;
     background: unset;
+    position: absolute;
+    top: 15%;
 }
 
 .sidenav a {
@@ -35,6 +41,7 @@
     right: 25px;
     font-size: 36px;
     margin-left: 50px;
+    z-index: 1;
 }
 
 @media screen and (max-height: 450px) {
@@ -45,3 +52,10 @@
         font-size: 18px;
     }
 }
+
+nav{
+    position: absolute;
+    z-index: 3
+}
+
+.navbar{position: absolute;width: 100%;}
