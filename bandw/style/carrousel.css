@@ -9,4 +9,8 @@
     max-height: 15rem;
     min-height: 300px;
     box-sizing: border-box !important;
+
+    opacity: 0.93;
+    -moz-opacity: 0.93;
+    filter: alpha(opacity=93);
 }
