@@ -98,9 +98,7 @@
 
 
         jQuery(function () {
-
-            var isIE = /*@cc_on!@*/false || !!document.documentMode;
-            if (isIE) {
+            if (navigator.userAgent.match(/msie/i) || navigator.userAgent.match(/trident/i)) {
                 $(".carousel").hide();
             }
         });
