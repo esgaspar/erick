@@ -6,17 +6,16 @@
     left: 0;
     background-color: #111;
     overflow-x: hidden;
-    transition: 0.5s;
     padding-top: 60px;
 
     opacity:0.98;
 	-moz-opacity: 0.98;
     filter: alpha(opacity=98);
-    z-index: 4;
+
+    z-index: 1001;
 }
 
 .carousel-indicators {
-    z-index: 1;
     background: unset;
     position: absolute;
     top: 15%;
@@ -41,7 +40,6 @@
     right: 25px;
     font-size: 36px;
     margin-left: 50px;
-    z-index: 1;
 }
 
 @media screen and (max-height: 450px) {
@@ -55,7 +53,18 @@
 
 nav{
     position: absolute;
-    z-index: 3
 }
 
-.navbar{position: absolute;width: 100%;}
+.navbar{position: absolute;width: 100%;
+
+    background-color:  rgba(0, 0, 0, 0.2);
+    /* opacity:0.2;
+	-moz-opacity: 0.2;
+    filter: alpha(opacity=20); */
+
+    /* opacity: 0.8;
+	-moz-opacity: 0.8;
+    filter: alpha(opacity=80); */
+
+    z-index: 1;
+}

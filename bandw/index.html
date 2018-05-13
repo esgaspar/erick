@@ -96,21 +96,20 @@
 
 
     <script>
+
+
+        jQuery(function () {
+
+            var isIE = /*@cc_on!@*/false || !!document.documentMode;
+            if (isIE) {
+                $(".carousel").hide();
+            }
+        });
+
+
         $('.carousel').carousel({
             interval: 5000
         })
-        $(function () {
-
-            var $body = $(document);
-            $body.bind('scroll', function () {
-                // "Disable" the horizontal scroll.
-                if ($body.scrollLeft() !== 0) {
-                    console.log("tentei fazer scrool");
-                    $body.scrollLeft(0);
-                }
-            });
-
-        });
         function openNav() {
             document.getElementById("mySidenav").style.width = "25rem";
             document.getElementById("mySidenav").style.maxWidth = "80%";
