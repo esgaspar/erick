@@ -10,6 +10,8 @@
     <link rel="stylesheet" type="text/css" href="style/carrousel.css">
     <link rel="stylesheet" type="text/css" href="style/sidenav.css">
     <link rel="stylesheet" type="text/css" href="style/index.css">
+    <script src="node_modules/scrolltofixed/jquery-scrolltofixed-min.js"></script>
+
 
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
@@ -19,13 +21,13 @@
 <body>
 
     <!-- <div class="container-fluid"> -->
-    <div class="header parallax">
+    <div class="conteudo parallax">
 
 
         <!-- Collect the nav links, forms, and other content for toggling -->
 
 
-        <nav class="navbar navbar-default" role="navigation">
+        <nav class="navbar navbar-default myHeader" role="navigation">
             <ul class="nav navbar-nav">
                 <li>
                     <span class="sandwishBtn" onclick="openNav()">&#9776;</span>
@@ -91,12 +93,14 @@
                 <span class="sr-only">Next</span>
             </a>
         </div>
+
     </div>
+    <footer class="footer navbar-fixed-bottom text-center">
+        <a href="https://esgaspar.github.io/erick/">Desenvolvido por Erick S. Gaspar</a>
+    </footer>
 
 
     <script>
-
-
         jQuery(function () {
             if (navigator.userAgent.match(/msie/i) || navigator.userAgent.match(/trident/i)) {
                 $(".carousel").hide();
@@ -107,6 +111,7 @@
         $('.carousel').carousel({
             interval: 5000
         })
+
         function openNav() {
             document.getElementById("mySidenav").style.width = "25rem";
             document.getElementById("mySidenav").style.maxWidth = "80%";
@@ -116,10 +121,6 @@
             document.getElementById("mySidenav").style.width = "0";
         }
     </script>
-
-    <footer class="footer navbar-fixed-bottom text-center">
-        <a href="https://esgaspar.github.io/erick/">Desenvolvido por Erick S. Gaspar</a>
-    </footer>
 </body>
 
 </html>
