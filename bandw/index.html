@@ -21,7 +21,7 @@
 <body>
 
     <!-- <div class="container-fluid"> -->
-    <div class="parallax" style="background-image: url('images/moon-2077332_1920.jpg'); ; z-index: 0.1;">
+    <div class="parallax" style="background-image: url('images/moon-2077332_1920.jpg'); ">
 
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -96,13 +96,17 @@
 
     </div>
 
-    <div class="parallax" style="background-image: url('images/bedroom-954661_1920.jpg'); z-index: 0.2">
+    <div class="parallax" style="background-image: url('images/bedroom-954661_1920.jpg'); ">
     </div>
     <footer class="footer navbar-fixed-bottom text-center">
         <a href="https://esgaspar.github.io/erick/">Desenvolvido por Erick S. Gaspar</a>
     </footer>
 
     <script>
+        $(document).ready(function () {
+            $('nav').scrollToFixed();
+        });
+
         jQuery(function () {
             if (navigator.userAgent.match(/msie/i) || navigator.userAgent.match(/trident/i)) {
                 $(".carousel").hide();
