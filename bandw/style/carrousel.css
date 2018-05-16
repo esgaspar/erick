@@ -5,6 +5,7 @@
 }
 
 .carousel {
+    display: flex;
     top: 25%;
     height: 20rem;
     max-height: 15rem;
