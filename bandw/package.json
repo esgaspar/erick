@@ -14,7 +14,7 @@
         "bootstrap": "^4.1",
         "jquery": "^3.3.1",
         "normalize.css": "^8.0.0",
-        "scrolltofixed": "^1.0.6",
+        "scrolltofixed": "^1.0.6"
 
     },
     "dependencies": {},
