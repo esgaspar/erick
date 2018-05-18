@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
-    <script src="js/scroll.js"></script>
+    <!-- <script src="js/scroll.js"></script> -->
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/scroll.js"></script>
 
     <link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="node_modules/normalize.css/normalize.css">
@@ -13,6 +14,12 @@
     <link rel="stylesheet" type="text/css" href="style/index.css">
     <script src="node_modules/scrolltofixed/jquery-scrolltofixed-min.js"></script>
 
+    <!-- Always get the latest version -->
+
+    <!-- Get minor updates and patch fixes within a major version -->
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@14/dist/smooth-scroll.polyfills.min.js"></script>
+
+
 
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
@@ -20,7 +27,7 @@
     <title></title>
 </head>
 
-<body>
+<body class="smooth-container">
 
     <!-- <div class="container-fluid"> -->
     <div class="parallax" style="background-image: url('images/moon-2077332_1920.jpg'); ">
@@ -48,7 +55,7 @@
                 <div id="mySidenav" class="sidenav" onclick="closeNav()">
 
                     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                    <a href="#quemsomos" onclick="closeNav();">Quem Somos</a>
+                    <a href="#quemsomos" onclick="scrollToAnchor('#quemsomos');closeNav();">Quem Somos</a>
                     <a href="#" onclick="closeNav()">Serviços</a>
                     <a href="#" onclick="closeNav()">Clientes</a>
                     <a href="#" onclick="closeNav()">Contato</a>
@@ -99,7 +106,7 @@
     </div>
 
     <div class="parallax" style="background-image: url('images/bedroom-954661_1920.jpg'); ">
-        <a name="quemsomos"></a>
+        <a name="quemsomos" id="quemsomos"></a>
     </div>
     <footer class="footer navbar-fixed-bottom text-center">
         <a href="https://esgaspar.github.io/erick/">Desenvolvido por Erick S. Gaspar</a>

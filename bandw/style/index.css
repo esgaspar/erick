@@ -75,3 +75,8 @@ body {
     overflow-x: hidden !important;
     font-family: inherit;
 }
+
+body,
+.smooth-container {
+    scroll-behavior: smooth
+}

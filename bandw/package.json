@@ -15,8 +15,9 @@
         "jquery": "^3.3.1",
         "normalize.css": "^8.0.0",
         "scrolltofixed": "^1.0.6"
-
     },
-    "dependencies": {},
+    "dependencies": {
+        "zenscroll": "^4.0.2"
+    },
     "homepage": "https://esgaspar.github.io/erick/bandw"
 }
