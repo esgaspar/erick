@@ -1,0 +1,82 @@
+.sandwishBtn {
+    font-size: 2rem;
+    cursor: pointer;
+    color: rgba(255, 255, 255, 1);
+    z-index: 999;
+}
+
+.sandwishBtn:hover {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.logo {
+    opacity: 1;
+    -moz-opacity: 1;
+    filter: alpha(opacity=100);
+    z-index: 1000;
+    padding-right: 1rem;
+}
+
+.logo img {
+    float: left;
+    cursor: pointer;
+    width: 5rem;
+    z-index: 1000;
+}
+
+.parallax {
+    /* The image used */
+    /* background-image: url("../images/moon-2077332_1920.jpg"); */
+    /* Set a specific height */
+    height: 100%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* position: absolute; */
+    opacity: 1;
+    /* Firefox, Chrome, Safari, Opera, IE >= 9 (preview) */
+    filter: alpha(opacity=50);
+    /* for <= IE 8 */
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+@media only screen and (max-width: 600px) {
+    .carousel-control-next,
+    .carousel-control-prev,
+    .carousel-indicators {
+        display: none;
+    }
+}
+
+.footer {
+    background-color: rgba(0, 0, 0, 0.2);
+    margin-top: -1.5%;
+    z-index: 1000;
+}
+
+.footer>a {
+    color: rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+}
+
+.footer>a:hover {
+    color: rgba(255, 255, 255, 1);
+}
+
+html,
+body {
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+    font-family: inherit;
+}
+
+body,
+.smooth-container {
+    scroll-behavior: smooth
+}

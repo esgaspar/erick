@@ -1,0 +1,23 @@
+{
+    "version": "1.0.0",
+    "description": "Black White Revestir",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "Black White",
+        "Black White revestir"
+    ],
+    "author": "Erick S. Gaspar",
+    "license": "WTFPL",
+    "devDependencies": {
+        "bootstrap": "^4.1",
+        "jquery": "^3.3.1",
+        "normalize.css": "^8.0.0",
+        "scrolltofixed": "^1.0.6"
+    },
+    "dependencies": {
+        "zenscroll": "^4.0.2"
+    },
+    "homepage": "https://esgaspar.github.io/erick/bandw"
+}
