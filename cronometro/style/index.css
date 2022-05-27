@@ -148,3 +148,7 @@ body,
     opacity: 0.5;
     pointer-events: none;
   }
+
+  .form-control{
+      width: 70%;
+  }
