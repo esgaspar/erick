@@ -78,10 +78,11 @@ $(document).ready(function () {
         this.reset = function () {
             label.textContent = 0;
             remaining = delay;
-            label_mask.textContent = mask(label.textContent);
+            label_mask.textContent = 0;
         };
 
     };
+    
     function mask(sec) {
         min = Math.trunc(sec / 60);
         segundos = sec - Math.trunc(min * 60);
